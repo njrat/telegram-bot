@@ -1,0 +1,63 @@
+do local _ = {
+  about_text = "Teleseed v4\nAn advanced administration bot based on TG-CLI written in Lua\n\nhttps://github.com/SEEDTEAM/TeleSeed\n\nAdmins\n@iwals [Founder]\n@imandaneshi [Developer]\n@POTUS [Developer]\n@seyedan25 [Manager]\n@aRandomStranger [Admin]\n\nSpecial thanks to\nawkward_potato\nSiyanew\ntopkecleon\nVamptacus\n\nOur channels\n@teleseedch [English]\n@iranseed [persian]\n\nOur website \nhttp://teleseed.seedteam.org/\n",
+  enabled_plugins = {
+    "supergroup2",
+    "all",
+    "admin",
+    "anti_spam",
+    "plug",
+    "banhammer",
+    "alnazexr",
+    "lock-fwd",
+    "zeoon",
+    "badwords",
+    "delall",
+    "linkpv",
+    "broadcast",
+    "newid",
+    "onservice",
+    "msg_checks",
+    "owners",
+    "stats",
+    "set",
+    "supergroup",
+    "alnazexr",
+    "ingroup",
+    "arabic_lock",
+    "translate",
+    "id2",
+    "info",
+    "inrealm",
+    "botlock",
+    "me",
+    "lockreply",
+    "tagall",
+    "invite",
+    "helppv",
+    "ltagenglish",
+    "del",
+    "welcome",
+    "font",
+    "fonten",
+    "madi",
+    "help1",
+    "help2",
+    "help3",
+    "help4",
+    "devsand",
+    "linkdont",
+    "photodont",
+    "spamdont"
+  },
+  moderation = {
+    data = "data/moderation.json"
+  },
+  sudo_users = {
+    177102411,
+    56169249,
+    58595069,
+    179776726
+  }
+}
+return _
+end
